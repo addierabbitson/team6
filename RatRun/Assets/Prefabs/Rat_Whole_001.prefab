@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 33717778605205052}
   - component: {fileID: 23005238355564526}
   - component: {fileID: 95873940742877086}
+  - component: {fileID: 114954336289793820}
   m_Layer: 0
   m_Name: Rat_Whole_001
   m_TagString: Untagged
@@ -240,7 +241,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1904491059829366}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -494.7998, y: -1.7675, z: 3.8698}
+  m_LocalPosition: {x: 291.6175, y: 215.2603, z: -696.8106}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4008836758977668}
@@ -686,3 +687,14 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114954336289793820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904491059829366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4a5fd7189340348876b96f7df4b6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
