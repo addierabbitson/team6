@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour {
 
     public void Restart()
     {
+        mPauseMenu.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

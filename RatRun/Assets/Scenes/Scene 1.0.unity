@@ -303,6 +303,12 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a277bf185e298240b7b821e1c40d474, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &815821986 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114242752767737222, guid: 8a277bf185e298240b7b821e1c40d474,
+    type: 2}
+  m_PrefabInternal: {fileID: 815821985}
+  m_Script: {fileID: 11500000, guid: 092beb6960505ac41b1ee0dbf764aee0, type: 3}
 --- !u!1 &972580552
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,6 +562,36 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114984394118165532, guid: 0a7689bc1d2dfa847ace2a2fe34d3d0e,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 815821986}
+    - target: {fileID: 114320278764026220, guid: 0a7689bc1d2dfa847ace2a2fe34d3d0e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 815821986}
+    - target: {fileID: 114935688377916504, guid: 0a7689bc1d2dfa847ace2a2fe34d3d0e,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 815821986}
+    - target: {fileID: 114536260366465836, guid: 0a7689bc1d2dfa847ace2a2fe34d3d0e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 815821986}
+    - target: {fileID: 114548757208851892, guid: 0a7689bc1d2dfa847ace2a2fe34d3d0e,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 815821986}
+    - target: {fileID: 114739405259987212, guid: 0a7689bc1d2dfa847ace2a2fe34d3d0e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 815821986}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a7689bc1d2dfa847ace2a2fe34d3d0e, type: 2}
   m_IsPrefabAsset: 0
