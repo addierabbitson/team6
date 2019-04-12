@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour {
 
     // Use this for initialization
-    public float force;
+    
     public float horizontal;
     public Vector3 moveForward;
     public float speed;
@@ -14,6 +14,7 @@ public class Movement : MonoBehaviour {
     public Rigidbody m_rigidBody;
     public float cooldownTimer;
     public float slowdownSpeed;
+   
     void Start()
     {
         m_rigidBody = GetComponent<Rigidbody>();
@@ -44,7 +45,7 @@ public class Movement : MonoBehaviour {
                 moveForward = new Vector3(horizontal, 0, 0);
                 m_rigidBody.AddForce(moveForward * speed, ForceMode.Impulse);
 
-
+                
                 //remmber the shit you did 2 months ago with force and velocity
 
             }
@@ -77,6 +78,7 @@ public class Movement : MonoBehaviour {
 
                 }
             }
+
         }
 
         if (isPlayer2)
