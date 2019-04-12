@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class Menus : MonoBehaviour
 {
 
+    public AudioClip mSoundClip;
+    public AudioSource mAudioSource;
 
 	// Use this for initialization
 	void Start ()
     {
-		
+        mAudioSource = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -30,4 +33,9 @@ public class Menus : MonoBehaviour
         Application.Quit();
     }
 
+    public void SoundOnHover()
+    {
+        Debug.Log("play_audio");
+        mAudioSource.PlayOneShot(mSoundClip);
+    }
 }
